@@ -3,6 +3,11 @@ Heroku Buildpack for setting up the ssh environment
 
 Config file
 ```bash
+Host bitbucket.org
+  ServerAliveInterval 15
+  StrictHostKeyChecking no
+  UserKnownHostsFile=/dev/null
+  IdentityFile ~/.ssh/deploy.id_rsa
 ```
 
 Setup
