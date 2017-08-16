@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+mkdir -p "$HOME/.ssh"
+cp "$3/SSH_KEY" "$HOME/.ssh/deploy.id_rsa"
+cp "$3/SSH_CONFIG" "$HOME/.ssh/config"

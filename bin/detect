@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+echo "SSH private key"
+exit 0
